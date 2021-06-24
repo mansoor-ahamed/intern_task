@@ -1,0 +1,27 @@
+.dropdown-menu{
+    background-color: blue;
+}
+.dropdown-menu a{
+    color:white;
+}
+.nav-link{
+    font-size: 21px;
+}
+.nav-link:hover{
+    background-color: blue;
+    border: 2px solid grey;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    text-decoration: underline;
+
+}
+.box1{
+    border: 2px solid black;
+}
+.date{
+    background-color: darkorange;
+}
+
+.box{
+    box-shadow: 4px 4px 5px 4px;
+ }

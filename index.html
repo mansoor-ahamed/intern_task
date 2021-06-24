@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+     <link rel="stylesheet" href="main.css">
+    <title>Customer portal</title>
+  </head>
+  <body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">BookVilla</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">MyBooking</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Locations
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Banglore</a></li>
+            <li><a class="dropdown-item" href="#">Mumbai</a></li>
+            <li><a class="dropdown-item" href="#">Hyderabad</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Delhi</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="#">villas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="#">Reserve</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="#">Contact</a>
+          </li>
+      
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+    <div class="row ">
+        <div class="col-md-4 box1 mt-4">
+            <div class="row bg-primary" >
+            <center><h4>Choose your date</h4></center>
+            <div class="cal">
+                <center>
+                from : 
+                <input type="date" class="date"> <br>
+                 <br>
+                 
+                End :
+                <input type="date" class="date">
+                <br>
+                <br>
+                Stay as much as days get discount 
+                <p>Stay safe stay healthy</p>
+            </center>
+            </div>
+            </div>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-7 box1 mt-4">
+            <div class="row bg-primary" >
+                <center><h4>Amazing facilities we are providing</h4></center>
+                <div class="col-5">
+                    Gyms / Fitness Rooms. 
+Private Spa
+Cinema
+Sauna / Steam Room
+Entertainment 
+ Games Room
+Mini Golf Course
+Tennis Court
+Yoga & Meditation Ar
+canteen
+Car repair
+Wifi <br>
+playground
+
+
+                </div>
+                <div class="col-1"></div>
+                <div class="col-5"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- slides section -->
+    <div class="container mt-5">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8dmlsbGF8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80" class="d-block w-100"  style="height: 400px;" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://media.istockphoto.com/photos/luxurious-modern-house-with-swimming-pool-picture-id1221865626?b=1&k=6&m=1221865626&s=170667a&w=0&h=54-dYtVEb10dqytrxV-7Dx1IaRFadN4W7dWgM1OLqoM=" style="height: 400px;" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://c4.wallpaperflare.com/wallpaper/150/385/134/trees-design-house-lawn-wallpaper-preview.jpg " style="height: 400px;" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- gallery of villas -->
+
+    
+        <div class="container mt-5" id="about">
+
+            <div class="row  row-cols-1 row-cols-md-3 g-4">
+              <div class="col">
+                <div class="card box h-100">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN4kxdfe5crilYVtGHegv9bTaHNiWs5MdLHw&usqp=CAU"
+                    class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">The Gables</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                      content. This content is a little bit longer.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card box h-100">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-8S0TZgl9BaP8IP6H2MxcbgZJZ1R2jrUd8Q&usqp=CAU"
+                    class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">The Bungalow</h5>
+                    <p class="card-text">This is a short card.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card box h-100">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPOx6TTwzUBSokm0YX7oSh3QwckvuAl6_V8g&usqp=CAU"
+                    class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">The Laurels</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                      content.</p>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col">
+                <div class="card box h-100">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjgNi02G1By7KoXWtkeWvVrvb7ZPGmRf9E_w&usqp=CAU"
+                    class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Orchard House</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                      content. This content is a little bit longer.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card box h-100">
+                  <img src="https://www.luxxu.net/blog/wp-content/uploads/2020/12/NdCSgGiVYu8.jpg" class="card-img-top"
+                    alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Orchard House</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                      content. This content is a little bit longer.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card box h-100">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsB-_nkSQqtuYHb-QOiFfnmweupfHiN71xCw&usqp=CAU"
+                    class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Orchard House</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                      content. This content is a little bit longer.</p>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="container">
+                <p style="margin-left: 45px;">Done with &hearts; By Mansoor Ahamed KH </p>
+              </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+  
+   
+  </body>
+</html>
